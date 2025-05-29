@@ -10,6 +10,9 @@ namespace Commando27
     {
         static void Main(string[] args)
         {
+            Commando commando1 = new Commando("soldier", "ab56");
+            Console.WriteLine(commando1.CodeName);
+            Console.Read();
         }
     }
 }
